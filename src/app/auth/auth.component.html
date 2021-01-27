@@ -1,0 +1,6 @@
+<h1>Login form</h1>
+<form (submit)="userLoginClick()">
+    <input type="text" [(ngModel)]="login" name="login" placeholder="Enter login" class="form-control"><br>
+    <input type="text" [(ngModel)]="password" name="password" placeholder="Enter password" class="form-control"><br>
+    <button class="btn btn-success" type="submit">Login</button>
+</form>
